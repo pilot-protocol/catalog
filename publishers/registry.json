@@ -1,0 +1,30 @@
+{
+  "publishers": [
+    {
+      "pubkey": "ed25519:VF8fdEP/Oe2aWN3ozQ7Ar22137tHb7dkSw0hlzlk/os=",
+      "name": "Pilot Protocol",
+      "contact": "apps@pilotprotocol.network",
+      "url": "https://pilotprotocol.network",
+      "apps": ["io.pilot.wallet"]
+    },
+    {
+      "pubkey": "ed25519:EjoZEiV+j6oNZLRWNEEf8lEnC8XBkrvBAk4fxuZLLyU=",
+      "name": "Pilot Protocol",
+      "contact": "apps@pilotprotocol.network",
+      "url": "https://pilotprotocol.network",
+      "apps": ["io.pilot.cosift"]
+    },
+    {
+      "pubkey": "ed25519:VoVCiQKPr73di2MlUd091a2Y6TCj/edSbCwRDtnYquI=",
+      "name": "Sixtyfour",
+      "url": "https://sixtyfour.ai",
+      "apps": ["io.pilot.sixtyfour"]
+    },
+    {
+      "pubkey": "ed25519:3QJm6H6OdjtfrF+Es1lrRjfFmdtq2tGvVSWxia63vcI=",
+      "name": "smol machines",
+      "url": "https://smolmachines.com",
+      "apps": ["io.pilot.smolmachines"]
+    }
+  ]
+}
