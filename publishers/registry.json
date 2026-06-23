@@ -25,6 +25,13 @@
       "name": "smol machines",
       "url": "https://smolmachines.com",
       "apps": ["io.pilot.smolmachines"]
+    },
+    {
+      "pubkey": "ed25519:5cqj+zTVecj8r0YRUShpgFi/g7TxDg1lkDKQzfNyDyc=",
+      "name": "Telepat",
+      "contact": "andrei@telepat.io",
+      "url": "https://telepat.io",
+      "apps": ["io.telepat.ideon-free"]
     }
   ]
 }
