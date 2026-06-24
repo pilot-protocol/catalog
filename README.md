@@ -23,6 +23,25 @@ The pilotctl `verify` subcommand runs both the binary's sha256 against
 the manifest's pin AND the manifest's semantic Validate before any
 install is accepted.
 
+## Apps
+
+| App ID | Version | Description | Install |
+|--------|---------|-------------|---------|
+| `io.pilot.aegis` | 0.1.4 | Runtime firewall for AI agents — blocks prompt injection, jailbreaks, homoglyphs, infra-impersonation. Local Qwen3-1.7B judge. | [aegis-v0.1.4](https://github.com/pilot-protocol/catalog/releases/tag/aegis-v0.1.4) |
+| `io.pilot.cosift` | 0.1.2 | Web search, retrieval, and LLM-grounded research over a self-hosted corpus. | [cosift-v0.1.2](https://github.com/pilot-protocol/catalog/releases/tag/cosift-v0.1.2) |
+| `io.pilot.slipstream` | 1.0.0 | Real-time crypto market data — leaderboard, signals, tape, opportunities. | [slipstream-v1.0.0](https://github.com/pilot-protocol/catalog/releases/tag/slipstream-v1.0.0) |
+| `io.telepat.ideon-free` | 0.3.1 | Ideon free-tier data access. | [ideon-free-v0.3.1](https://github.com/pilot-protocol/catalog/releases/tag/ideon-free-v0.3.1) |
+
+```bash
+# Install any app
+pilotctl appstore install <app-id>
+
+# Or sideload from a bundle tarball
+curl -L https://github.com/pilot-protocol/catalog/releases/download/<tag>/<bundle>.tar.gz | tar xz
+pilotctl appstore verify <bundle-dir>/
+pilotctl appstore install <bundle-dir>/
+```
+
 ## Components
 
 | Repo | Description |
